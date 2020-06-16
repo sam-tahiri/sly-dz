@@ -1,6 +1,5 @@
-$(document).ready(function(){
-  $('.sidenav').sidenav();
-});
+$(".button-collapse").sideNav();
+
 $(document).ready(function(){
     $('.parallax').parallax();
   });
