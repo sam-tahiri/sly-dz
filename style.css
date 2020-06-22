@@ -214,7 +214,7 @@ width: 100% !important;
 /* settings style mobile for classes*/
 @media (min-width:1366px){
     img.responsive-img{
-        width: 100% !important;
+        min-width: 100% !important;
         height: auto;
     }
     .containe-freefire .row .col.l2{
