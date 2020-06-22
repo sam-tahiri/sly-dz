@@ -213,15 +213,16 @@ width: 100% !important;
 }
 /* settings style mobile for classes*/
 @media (min-width:1366px){
+    img.responsive-img{
+        width: 100% !important;
+        height: auto;
+    }
     .containe-freefire .row .col.l2{
         width: 13.666667% !important;
     }
+
 }
 @media (max-width:1366px){
-    img.responsive-img{
-        width: 100%;
-        height: auto;
-    }
     .card .card-action a{
         margin-right: 24px !important;
      }
