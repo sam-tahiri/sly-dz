@@ -211,12 +211,12 @@ width: 100% !important;
 .card .card-content span{
     color: #ffab40;
 }
+img.responsive-img{
+    min-width: 100% !important;
+    height: auto;
+}
 /* settings style mobile for classes*/
 @media (min-width:1366px){
-    img.responsive-img{
-        min-width: 100% !important;
-        height: auto;
-    }
     .containe-freefire .row .col.l2{
         width: 13.666667% !important;
     }
