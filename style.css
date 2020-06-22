@@ -218,6 +218,10 @@ width: 100% !important;
     }
 }
 @media (max-width:1366px){
+    img.responsive-img{
+        width: 100%;
+        height: auto;
+    }
     .card .card-action a{
         margin-right: 24px !important;
      }
