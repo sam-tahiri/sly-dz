@@ -1,3 +1,12 @@
+/*
+Theme Name: Sly Dz
+Date: 07/22/2020
+Discription: موقع لشحن Pubg MObile و FreeFire وخدمات اخرى تعبئة الانترنت والفليكسي
+Version: 1.0
+Author: sam tahiri
+Author URL: https://www.facebook.com/TahiRiISM/
+loader file style.css
+*/
 *{
     font-family: sans-serif;
 }
@@ -17,9 +26,6 @@ nav .brand-logo {
 .logo-img{
     margin-top: 1px;
     margin-top: 1px;
-}
-img.responsive-img{
-    min-width: 100% !important;
 }
 
 nav ul {
@@ -349,28 +355,7 @@ nav ul a.btn, nav ul a.btn-large, nav ul a.btn-small, nav ul a.btn-large, nav ul
     padding-right: 2px;
     line-height: 92px;
 }
-.email i{
-    border: none !important;
-}
-.email input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
-    background-color: #ffffff;
-    border: none;
-    border-bottom: 1px solid #9e9e9e;
-    border-radius: 4px 4px 4px 4px;
-    outline: none;
-    height: 3rem;
-    width: 100%;
-    font-size: 1rem;
-    margin: 0 0 20px 0;
-    padding: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    color: b;
-}
+
 .mony{
     background-color: #f6910a;
     margin: 0px;
@@ -422,4 +407,22 @@ nav ul a.btn, nav ul a.btn-large, nav ul a.btn-small, nav ul a.btn-large, nav ul
 }
 .containe-freefire .indicator{
     display: none ;
+}
+.card-panel{
+    border-radius: 10px !important;
+    background: #020e3a;
+}
+.text-service p{
+    font-size: large;
+    font: bolds;
+    font-family: sans-serif;
+}
+.shahen-2 img{
+    margin-bottom: 5px;
+}
+.sec1 .card .card-image img{
+    height: 139px;
+}
+.sec-test .card .card-image img{
+   height: 112.7px;
 }
